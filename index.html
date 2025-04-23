@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Krosh's Links</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1b2838;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 40px 20px 20px;
+    }
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #66c0f4;
+    }
+    h1 {
+      margin: 10px 0 0;
+      font-size: 28px;
+      color: #66c0f4;
+    }
+    h2 {
+      margin-top: 40px;
+      font-size: 22px;
+      color: #c7d5e0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    li {
+      margin: 15px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #c7d5e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #2a475e;
+      padding: 12px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    a:hover {
+      background-color: #3c6e91;
+    }
+    img.icon {
+      width: 28px;
+      height: 28px;
+      margin-right: 12px;
+    }
+  </style>
 </head>
 <body>
   <header>
     <div class="profile">
-      <img src="https://avatars.fastly.steamstatic.com/6ecd74ba620ce69bae30273122e99514c8752128_full.jpg" alt="Krosh's Profile Picture">
+      <img src="https://avatars.fastly.steamstatic.com/6ecd74ba620ce69bae30273122e99514c8752128_full.jpg" alt="Krosh">
       <h1>Krosh</h1>
     </div>
   </header>
@@ -17,42 +73,42 @@
   <main>
     <h2>My Links</h2>
     <ul>
-      <!-- First Steam Profile Link -->
+      <!-- Main Steam Profile -->
       <li>
         <a href="https://steamcommunity.com/id/Kroshofficial" target="_blank">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png" alt="Steam Logo" width="32" height="32">
-          Steam Profile 1
+          <img class="icon" src="https://cdn-icons-png.flaticon.com/512/5969/5969706.png" alt="Steam">
+          Main Steam Profile
         </a>
       </li>
 
-      <!-- Second Steam Profile Link -->
+      <!-- Second Steam Profile -->
       <li>
         <a href="https://steamcommunity.com/id/krosh1385/" target="_blank">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png" alt="Steam Logo" width="32" height="32">
-          Steam Profile 2
+          <img class="icon" src="https://cdn-icons-png.flaticon.com/512/5969/5969706.png" alt="Steam">
+          Second Steam Profile
         </a>
       </li>
 
-      <!-- Faceit Profile Link -->
+      <!-- Faceit -->
       <li>
         <a href="https://www.faceit.com/en/players/KING-_-RIP" target="_blank">
-          <img src="https://www.faceit.com/favicon.ico" alt="Faceit Logo" width="32" height="32">
+          <img class="icon" src="https://seeklogo.com/images/F/faceit-logo-0B4EFA4C72-seeklogo.com.png" alt="Faceit">
           Faceit Profile
         </a>
       </li>
 
-      <!-- Telegram Link -->
+      <!-- Telegram -->
       <li>
-        <a href="http://t.me/kroshly" target="_blank">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_Logo.svg" alt="Telegram Logo" width="32" height="32">
+        <a href="https://t.me/kroshly" target="_blank">
+          <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
           Telegram
         </a>
       </li>
 
-      <!-- Dotabuff Profile Link with Dota 2 Icon -->
+      <!-- Dotabuff (Dota 2 icon) -->
       <li>
         <a href="https://www.dotabuff.com/players/1044906803" target="_blank">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Dota_2_Logo.svg" alt="Dota 2 Logo" width="32" height="32">
+          <img class="icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968834.png" alt="Dota 2">
           Dotabuff Profile
         </a>
       </li>
@@ -60,3 +116,4 @@
   </main>
 </body>
 </html>
+
